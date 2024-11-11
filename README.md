@@ -146,10 +146,6 @@ La vista de productos recibe las siguientes props:
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
-
 ## 👥 Autores
 
 - **Luis Suarez** - _Trabajo Inicial_ - [Fideo Kojima](https://github.com/FideoKojima)
