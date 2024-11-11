@@ -8,6 +8,8 @@
 
 Este proyecto es una demostración de una tienda en línea implementada con Vue.js y Vue Router. Incluye navegación entre diferentes vistas, gestión de productos y un formulario de contacto.
 
+[Vista previa del proyecto](https://desafio-vue-router-seven.vercel.app/)
+
 ## ✨ Características
 
 - 🔄 Navegación fluida entre páginas usando Vue Router
@@ -37,13 +39,13 @@ Antes de comenzar, asegúrate de tener instalado:
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/vue-router-shop.git
+git clone https://github.com/FideoKojima/DesafioVueRouter.git
 ```
 
 2. Navega al directorio del proyecto:
 
 ```bash
-cd vue-router-shop
+cd DesafioRouterVue
 ```
 
 3. Instala las dependencias:
@@ -150,7 +152,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 
 ## 👥 Autores
 
-- **Tu Nombre** - _Trabajo Inicial_ - [TuUsuario](https://github.com/tu-usuario)
+- **Luis Suarez** - _Trabajo Inicial_ - [Fideo Kojima](https://github.com/FideoKojima)
 
 ## 🎉 Agradecimientos
 
@@ -160,4 +162,4 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 
 ---
 
-⌨️ con ❤️ por [Tu Nombre](https://github.com/tu-usuario) 😊
+⌨️ con ❤️ por [Luis Suarez](https://github.com/FideoKojima) 😊
