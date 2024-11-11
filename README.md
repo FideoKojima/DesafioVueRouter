@@ -1,30 +1,163 @@
-# DesafioVueRouter
+# 🛍️ Vue Router Shopping Demo
 
-This template should help get you started developing with Vue 3 in Vite.
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![Vue Router](https://img.shields.io/badge/Vue_Router-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## Recommended IDE Setup
+## 📝 Descripción
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Este proyecto es una demostración de una tienda en línea implementada con Vue.js y Vue Router. Incluye navegación entre diferentes vistas, gestión de productos y un formulario de contacto.
 
-## Customize configuration
+## ✨ Características
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- 🔄 Navegación fluida entre páginas usando Vue Router
+- 🏷️ Sistema de productos con props dinámicas
+- 📱 Diseño responsive con Bootstrap
+- 💅 Componentes reutilizables
+- 🚀 Lazy loading para mejor rendimiento
 
-## Project Setup
+## 🛠️ Tecnologías Utilizadas
 
-```sh
+- Vue.js 3
+- Vue Router 4
+- Bootstrap 5
+- HTML5
+- CSS3
+- JavaScript
+
+## 📋 Prerrequisitos
+
+Antes de comenzar, asegúrate de tener instalado:
+
+- Node.js (versión 14 o superior)
+- npm (normalmente viene con Node.js)
+
+## 🚀 Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/vue-router-shop.git
+```
+
+2. Navega al directorio del proyecto:
+
+```bash
+cd vue-router-shop
+```
+
+3. Instala las dependencias:
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+4. Inicia el servidor de desarrollo:
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+## 📁 Estructura del Proyecto
 
-```sh
-npm run build
 ```
-"# DesafioVueRouter" 
+vue-router-shop/
+├── src/
+│   ├── components/
+│   │   ├── Card.vue
+│   │   ├── Footer.vue
+│   │   ├── MediosPago.vue
+│   │   └── Navbar.vue
+│   ├── views/
+│   │   ├── Home.vue
+│   │   ├── Productos.vue
+│   │   └── Contacto.vue
+│   ├── router/
+│   │   └── index.js
+│   ├── App.vue
+│   └── main.js
+├── public/
+├── package.json
+└── README.md
+```
+
+## 🖥️ Vistas Disponibles
+
+### 🏠 Home
+
+- Página principal
+- Muestra productos destacados
+- Incluye medios de pago y footer
+
+### 🛍️ Productos
+
+- Listado de productos
+- Detalles de cada producto
+- Precios y disponibilidad
+
+### 📞 Contacto
+
+- Formulario de contacto
+- Información de la empresa
+- Botón de retorno al inicio
+
+## ⚙️ Configuración de Rutas
+
+Las rutas están configuradas en `src/router/index.js`:
+
+```javascript
+const routes = [
+  {
+    path: "/",
+    name: "Home",
+    component: () => import("../views/Home.vue"),
+  },
+  {
+    path: "/productos",
+    name: "Productos",
+    component: () => import("../views/Productos.vue"),
+  },
+  {
+    path: "/contacto",
+    name: "Contacto",
+    component: () => import("../views/Contacto.vue"),
+  },
+];
+```
+
+## 🎯 Props en Vista Productos
+
+La vista de productos recibe las siguientes props:
+
+| Prop        | Tipo   | Descripción           |
+| ----------- | ------ | --------------------- |
+| nombre      | String | Nombre del producto   |
+| descripcion | String | Descripción detallada |
+| precio      | Number | Precio en dólares     |
+| cantidad    | Number | Stock disponible      |
+
+## 🤝 Contribuir
+
+1. Fork el proyecto
+2. Crea una nueva rama (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
+
+## 👥 Autores
+
+- **Tu Nombre** - _Trabajo Inicial_ - [TuUsuario](https://github.com/tu-usuario)
+
+## 🎉 Agradecimientos
+
+- Desafío Latam por proporcionar el código base
+- Comunidad Vue.js
+- Todos los contribuidores que participan en este proyecto
+
+---
+
+⌨️ con ❤️ por [Tu Nombre](https://github.com/tu-usuario) 😊
